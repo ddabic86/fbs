@@ -1,0 +1,16 @@
+.card {
+  background-color: #fff;
+  width: 100%;
+}
+
+.card_border {
+  border: var(--border);
+}
+
+.card_absolute {
+  position: absolute;
+  left: 0;
+  top: 80px;
+  right: 0;
+  z-index: 10;
+}

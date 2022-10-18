@@ -1,0 +1,107 @@
+.box {
+  padding: 10px 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: column;
+  border: 0;
+  background-color: var(--background);
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+.box__border {
+  border-bottom: 1px solid var(--border);
+}
+
+.box__start {
+  align-items: flex-start;
+}
+
+.box__noPadding {
+  padding: 0 !important;
+}
+
+.box__transparent {
+  background-color: transparent !important;
+}
+
+.box__centered {
+  align-items: center;
+}
+
+.box__wrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-direction: row;
+  background-color: transparent;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.box__row {
+  flex-direction: row;
+  align-items: center;
+}
+
+.box__grid {
+  display: grid;
+  grid-column-gap: 4vw;
+  grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(47%, 1fr));
+  padding-top: 15px;
+  grid-row-gap: 6vw;
+}
+
+.box__grid {
+}
+
+.box__scroll {
+  display: flex;
+  width: 100%;
+  overflow: scroll;
+  padding: 0 1rem;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.box__scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.box__scroll {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.box__focus {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+}
+
+.box__overlay {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 102;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: var(--white);
+}
+
+.box__modal {
+  background-color: rgba(71, 71, 71, 0.88) !important;
+  margin-top: 0 !important;
+}

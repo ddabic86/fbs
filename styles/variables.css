@@ -1,0 +1,98 @@
+:root {
+    /* COLORS */
+    --black: #000000;
+ 
+    --white: #ffffff;
+    --white-50: #f7f7f8;
+    --white-100: #fafafa;
+ 
+    --yellow: #ffb300;
+    --green: #00d90e;
+ 
+    --gray: rgba(22, 24, 35, 0.06);
+    --silver: #dbdbdb;
+    --gray-50:#a8a8a8;
+ 
+    --area: rgb(28, 28, 28);
+ 
+    --hover: rgba(15, 20, 25, 0.1);
+    --border: 1.5px solid #dbdbdb;
+    --border__color:  #dbdbdb;
+    --border-50: rgba(15, 20, 25, 0.1);
+    --border-100: rgba(219, 219, 219, 1);
+    --progress: #000;
+ 
+    --paragraph:#737373;
+    --paragraph_light:#8E8E8E;
+ 
+ 
+ 
+    --pink: #ff037c;
+    --pink-50: #e0007a;
+    --pink-100: #0BABF2;
+    --blue: rgb(0, 225, 255);
+    --blue-50: rgb(29, 161, 242);
+    --blue-100: #00a1ed;
+    --blue-150: #0195F7;
+ 
+    --error: #ee4957;
+    --error_border: #ee4957;
+ 
+    --header: 99;
+    --modal: 100;
+    --overlay:102,
+ 
+    --modals-bg: rgba(71, 71, 71, 0.88);
+ 
+    --max-width: calc(1300px);
+    --wrapper: calc(1080px);
+ 
+    --paragraph-font-size: 13px;
+    /* --paragraph-letter-spacing: -0.154px; */
+    --paragraph-line-height: 18px;
+    --paragraph-font-weight: 400;
+ 
+    --faq-font-size: 16px;
+    --faq-font-weight: 500;
+    /* --faq-letter-spacing: -0.41px; */
+    --faq-line-height: 20px;
+ 
+    --more-link-font-size: 13px;
+    --more-link-font-weight: bold;
+    /* --more-link-letter-spacing: -0.154px; */
+    --more-link-line-height: 18px;
+ 
+    --section-title-font-size: 20px;
+    --section-title-font-weight: bold;
+    /* --section-title-letter-spacing: -0.45px; */
+    --section-title-line-height: 25px;
+    --section-title-margin: 16px 0 0 0;
+ 
+    --paragraph-title-font-size: 16px;
+    --paragraph-title-font-weight: bold;
+    /* --paragraph-title-letter-spacing: -0.43px; */
+    --paragraph-title-line-height: 22px;
+    --paragraph-title-margin: 16px 0 8px 0;
+ 
+    --title-font-size: 16px;
+    --title-font-weight: 700;
+    --title-letter-spacing: 0.38px;
+    --title-line-height: 24px;
+ 
+    --title-light-font-size: 22px;
+    /* --title-light-letter-spacing: 0.352px; */
+    --title-light-font-weight: 400;
+    --title-light-line-height: 24px;
+ }
+ 
+ .dark:root {
+    --background: #ffffff;
+    --dark: #000000;
+    --button: #000;
+    --green: #00e6a3;
+    --greenDark: #00b883;
+    --area: #f3f3f3;
+ 
+    --border: rgb(207, 217, 222);
+    --hover: rgba(255, 255, 255, 0.5);
+ }
